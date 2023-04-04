@@ -35,7 +35,7 @@ void delDup(int a[],int n)
       x=a[i];
       for(int j=0;j<n;j++)
       {
-          if(search(b,n,x))
+          if(search(b,x,n))
           {
             insert(b,x);
             size++;
